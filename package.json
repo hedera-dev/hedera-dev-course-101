@@ -1,0 +1,33 @@
+{
+  "name": "TODO_REPO_SLUG",
+  "private": true,
+  "version": "0.0.0",
+  "description": "TODO_REPO_DESCRIPTION",
+  "main": "init.js",
+  "scripts": {
+    "update-from-base-template": "npx github:hedera-dev/hedera-tutorial-demo-base-template update",
+    "scaffold-task-from-base-template": "npx github:hedera-dev/hedera-tutorial-demo-base-template scaffold-task",
+    "format": "prettier . --write --cache",
+    "test": "echo 'no tests yet'",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hedera-dev/hedera-tutorial-demo-base-template.git"
+  },
+  "keywords": ["hedera", "gitpod", "template"],
+  "author": "bguiz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hedera-dev/hedera-tutorial-demo-base-template/issues"
+  },
+  "homepage": "https://github.com/hedera-dev/hedera-tutorial-demo-base-template#readme",
+  "dependencies": {
+    "@hashgraph/sdk": "2.48.1",
+    "dotenv": "16.4.5"
+  },
+  "devDependencies": {
+    "husky": "9.1.4",
+    "prettier": "3.3.3"
+  }
+}
