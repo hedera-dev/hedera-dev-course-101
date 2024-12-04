@@ -1,8 +1,8 @@
-# TODO_REPO_NAME
+# Hedera Developer Course 101
 
-Demo repo for TODO_REPO_DESCRIPTION.
+Demo repos for Hedera Developer Course 101 - Basics.
 
-<a href="https://gitpod.io/?autostart=true&editor=code&workspaceClass=g1-standard#https://github.com/hedera-dev/TODO_REPO_SLUG" target="_blank" rel="noreferrer">
+<a href="https://gitpod.io/?autostart=true&editor=code&workspaceClass=g1-standard#https://github.com/hedera-dev/hedera-dev-course-101" target="_blank" rel="noreferrer">
   <img src="./img/gitpod-open-button.svg" />
 </a>
 
@@ -37,22 +37,28 @@ and follow the instructions in the "pre-requisites" section of the accompanying 
 
 To run on Gitpod (a cloud development environment), click the button below:
 
-<a href="https://gitpod.io/?autostart=true&editor=code&workspaceClass=g1-standard#https://github.com/hedera-dev/TODO_REPO_SLUG" target="_blank" rel="noreferrer">
+<a href="https://gitpod.io/?autostart=true&editor=code&workspaceClass=g1-standard#https://github.com/hedera-dev/hedera-dev-course-101" target="_blank" rel="noreferrer">
   <img src="./img/gitpod-open-button.svg" />
 </a>
 
 1. Wait for Gitpod to load, this should take less than 10 seconds
-1. In the VS code terminal, you should see 3 terminals, `rpcrelay_pull`, `rpcrelay_run`, and `main`
+1. In the VS code terminal, you should see 3 terminals, `get_deps`, `rpcrelay_run`, and `main`
 1. You do not need to use the `get_deps` and `rpcrelay_run` terminals, simply let them run in the background
 1. In the `main` terminal, which is the one that displays by default, a script will interactively prompt you
 1. Congratulations, you can now move on to the sequences! 🎉
 
 ## Sequences
 
-This repo contains the code required for TODO_REPO_SEQUENCES_SUMMARY_DESC.
+This repo contains the code required for the **labs** in Hedera Developer Course 101.
 The following sections outline what each sequence will cover.
 
-TODO_REPO_SEQUENCES_FULL_DESC.
+Each lab in this course contains a video demonstrating the steps
+which are required to complete the lab.
+This repo contains the initial (starting point) of the lab,
+and you will simply need to replicate the same steps as seen in the video,
+and thereby complete the lab.
+
+(WIP)
 
 ### TODO_SEQUENCE_X_NAME
 
@@ -77,7 +83,7 @@ Steps:
 
 ## TODOs
 
-- [ ] TODO_ITEMS_TODO
+- [ ] Write the sequence steps for lab 101-02 querying with RPC
 
 ## Author
 
