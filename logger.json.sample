@@ -1,0 +1,12 @@
+{
+  "config": {
+    "scriptCategory": "config",
+    "ansiDisabled": false,
+    "metricsId": "",
+    "metricsHcsTopicId": "",
+    "metricsHcsTopicMemo": "",
+    "metricsAccountId": "",
+    "metricsAccountKey": "",
+    "metricsHcsDisabled": false
+  }
+}
