@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-import { Client, PrivateKey, AccountId } from '@hashgraph/sdk';
 import dotenv from 'dotenv';
 import { createLogger } from '../util/util.js';
 
@@ -27,8 +26,8 @@ async function scriptHdc10102LabQueryRpc() {
   const hashioRpcUrl = 'https://testnet.hashio.io/api';
   const thirdPartyRpcUrl = 'https://docs-demo.hedera-testnet.quiknode.pro/';
 
-  // via Hashio endpoints
-  await logger.logReminder('Make a JSON-RPC request to Hedera Testnet via Hashio RPC endpoint');
+  // (1) via Hashio endpoints
+  await logger.logSection('Make a JSON-RPC request to Hedera Testnet via Hashio RPC endpoint');
 
   // Construct JSON-RPC request body
   const rpcReq1Body = {
@@ -60,8 +59,8 @@ async function scriptHdc10102LabQueryRpc() {
   console.log(rpcResp1Body);
   console.log('latest block number:', rpcResp1Body?.result?.number);
 
-  // via JSON-RPC relay running on localhost
-  await logger.logReminder('Make a JSON-RPC request to Hedera Testnet via RPC relay instance');
+  // (2) via JSON-RPC relay running on localhost
+  await logger.logSection('Make a JSON-RPC request to Hedera Testnet via RPC relay instance');
 
   // Construct JSON-RPC request body
   const rpcReq2Body = JSON.parse(JSON.stringify(rpcReq1Body));
@@ -85,8 +84,9 @@ async function scriptHdc10102LabQueryRpc() {
   console.log(rpcResp2Body);
   console.log('latest block number:', rpcResp2Body?.result?.number);
 
-  // via 3rd party RPC endpoints (exercise left to reader, mentioned but not demo’ed)
-  await logger.logReminder('Make a JSON-RPC request to Hedera Testnet via 3rd party RPC endpoints');
+  // (3) via 3rd party RPC endpoints
+  // (exercise left to student)
+  await logger.logSection('Make a JSON-RPC request to Hedera Testnet via 3rd party RPC endpoints');
 
   // Construct JSON-RPC request body
   // TODO re-use a request body previously constructed
