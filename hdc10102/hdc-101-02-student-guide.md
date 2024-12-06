@@ -51,11 +51,44 @@ TODO_CONTENT
 
 ## Code Snippets
 
-TODO_CONTENT
+JSON-RPC request body to retrieve the latest block.
+Note that you should use `JSON.stringify` to use as input into an HTTP request.
+
+```js
+  {
+    method: 'eth_getBlockByNumber',
+    params: ['latest', false],
+    'id': 1,
+    'jsonrpc': '2.0',
+  }
+```
+
+Issue an HTTP `POST` request to a JSON-RPC endpoint at `rpcUrl`.
+
+```js
+  await fetch(
+    rpcUrl,
+    {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: jsonRpcRequestBody,
+      redirect: 'follow',
+    },
+  );
+```
 
 ## Resources
 
-TODO_CONTENT
+- [`curl`](https://curl.se/) -
+  a CLI tool used in this module to make HTTP requests
+- [`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) -
+  a guide to using `fetch` to make HTTP requests in Javascript
+- Blockchain state, as defined in the [Ethereum Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf)
+  - "[a blockchain] can be viewed as a transaction-based state machine: we begin with a genesis state and incrementally execute transactions to morph it into some current state. It is this current state which we accept as the canonical version [of the blockchain]"
+- Blockchain state, as defined by Amrit Kumar. [DApps Dev Club Session 5 Round Up](https://dappsdev.org/blog/2019-05-02-dapps-dev-club-5th-session-roundup/)
+  - "[blockchains] are stateful systems. This basically means that a [blockchain] at any point of time can be said to be in a particular "state". ... A state transition is a function that allows users to change the state of the [blockchain]"
 
 ## Self Assessment Answers
 
