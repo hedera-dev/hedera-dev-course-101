@@ -43,7 +43,29 @@ Hashscan (visual user interface).
 
 ## Self Assessments
 
-TODO_CONTENT
+**Fill in the blanks**
+
+In blockchains, state can be ____ using a query and be ____ using a transaction.
+All state ____ must be agreed upon by ____ in the blockchain network.
+They do so using a ____ algorithm.
+
+**Answer the following questions**
+
+When a blockchain node receives a transaction,
+what does it need to do to determine
+if that transaction should be added to the blockchain?
+
+____
+
+How do blockchain networks implement CQRS?
+
+____
+
+**Classify the following terms into their categories**
+
+JSON-RPC, XML, HTTP, WS, protobuf, gRPC
+
+![classification exercise](hdc-101-02-infographic.png)
 
 ## Definitions
 
@@ -92,4 +114,26 @@ Issue an HTTP `POST` request to a JSON-RPC endpoint at `rpcUrl`.
 
 ## Self Assessment Answers
 
-TODO_CONTENT
+**Fill in the blanks**
+
+In blockchains, state can be _read_ using a query and be _updated_ using a transaction.
+All state _changes_ must be agreed upon by _nodes_ in the blockchain network.
+They do so using a _consensus_ algorithm.
+
+**Answer the following questions**
+
+When a blockchain node receives a transaction,
+what does it need to do to determine
+if that transaction should be added to the blockchain?
+
+_The transaction data itself must be validated. The transaction authorisation must also be validated, and this is typically done by matching the cryptographic signature attached to the transaction._
+
+How do blockchain networks implement CQRS?
+
+_In command-query responsibility segregation (CQRS), commands update the state of the network, and queries do not. In blockchains, transactions are used for commands, and queries do not use transactions, thereby allowing blockchain nodes to explicitly segregate the handling of commands and queries._
+
+**Classify the following terms into their categories**
+
+JSON-RPC, XML, HTTP, WS, protobuf, gRPC
+
+![classification exercise answers](hdc-101-02-infographic-answers.png)
