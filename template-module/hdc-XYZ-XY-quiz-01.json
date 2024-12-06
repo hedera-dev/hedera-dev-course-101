@@ -1,0 +1,21 @@
+{
+    "title": "Module XYZ-XY TODO_MODULE_NAME - Hedera Developer Course",
+    "questions": [
+      {
+        "type": "scq/v1",
+        "text": "TODO_QUESTION",
+        "jumble": true,
+        "answers": [
+          {
+            "text": "TODO_ANSWER_CORRECT",
+            "explain": "TODO_ANSWER_CORRECT_EXPLAIN",
+            "correct": true
+          },
+          {
+            "text": "TODO_ANSWER_WRONG",
+            "explain": "TODO_ANSWER_WRONG_EXPLAIN"
+          }
+        ]
+      }
+    ]
+  }
