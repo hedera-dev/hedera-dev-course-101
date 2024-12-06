@@ -9,12 +9,8 @@ Materials that are not available yet or incomplete are marked with "(WIP)".
 
 - Student guide (WIP)
 - Slide deck (WIP)
-- Explainer: Blockchain State (WIP)
-- Explainer: CQRS (WIP)
-- Lab: Query network state with Mirror Node API (WIP)
-- Lab: Query network state with JSON-RPC
-  - [Lab resources](../hdc10102LabQueryRpc/)
-- Lab: Query network state with Hashscan (WIP)
+- Explainer: TODO_NAME (WIP)
+- Lab: TODO_NAME (WIP)
 - Explainer: Recap (WIP)
 - Self Assessment
   - Multiple choice questions (WIP)
