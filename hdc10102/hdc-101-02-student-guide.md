@@ -110,6 +110,9 @@ Issue an HTTP `POST` request to a JSON-RPC endpoint at `rpcUrl`.
 ## Resources
 
 - [Hedera Documentation](https://docs.hedera.com/hedera)
+- [Hedera Mirror Node REST API (Testnet)](https://testnet.mirrornode.hedera.com/api/v1/docs/)
+- [JSON-RPC API (Ethereum)](https://ethereum.org/en/developers/docs/apis/json-rpc/)
+- [Hedera RPC (QuickNode)](https://www.quicknode.com/docs/hedera)
 - [Guide to JSON-RPC connections on Hedera](https://docs.hedera.com/hedera/tutorials/more-tutorials/json-rpc-connections/)
 - [`curl`](https://curl.se/) -
   a CLI tool used in this module to make HTTP requests
