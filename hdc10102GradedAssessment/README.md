@@ -58,7 +58,7 @@ Now you may begin working on your submission for this module!
   account `0.0.10`.
 - You will need to do your own research to work out which Hashscan page
   will yield this information.
-- The entire contents of this file should just the URL
+- The entire contents of this file should be just the URL
 
 ## Submission Instructions
 
