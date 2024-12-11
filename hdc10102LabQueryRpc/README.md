@@ -31,27 +31,38 @@ Steps:
 
 ## Steps
 
+### Getting ready
+
 - In the terminal, start in the **root directory** of this repo
 - `cd hdc10102LabQueryRpc`
 - `code script-hdc10102LabQueryRpc.js`
-- View this code file
+- Open this file and review the code within it
+
+### RPC via Hashio endpoint
+
 - Find the comment: `// (1) via Hashio endpoints`
-    - You will see the RPC request body being constructed:
-        - for the `eth_getBlockByNumber` RPC
-        - its first parameter is `latest`, which asks for the most recent block
-    - Next, `fetch` is used to make an HTTP `POST` request to the Hashio RPC URL
-    - Finally, the response is displayed:
-        - full response (data for the entire block)
-        - block number (one specific field within the block)
+- You will see the RPC request body being constructed:
+    - for the `eth_getBlockByNumber` RPC
+    - its first parameter is `latest`, which asks for the most recent block
+- Next, `fetch` is used to make an HTTP `POST` request to the Hashio RPC URL
+- Finally, the response is displayed:
+    - full response (data for the entire block)
+    - block number (one specific field within the block)
+
+### RPC via JSON-RPC relay
+
 - Find the comment: `// (2) via JSON-RPC relay running on localhost`
-    - You will see the RPC request body being re-used
-    - Next, `fetch` is used to make an HTTP `POST` request to the RPC relay RPC URL
-        - Note that this should already be running in the background on your computer or container
-    - Finally, the response is displayed as before
+- You will see the RPC request body being re-used
+- Next, `fetch` is used to make an HTTP `POST` request to the RPC relay RPC URL
+    - Note that this should already be running in the background on your computer or container
+- Finally, the response is displayed as before
+
+### RPC via 3rd party RPC endpoint
+
 - Find the comment: `// (3) via 3rd party RPC endpoints`
-    - The implementation here is left incomplete
-    - **TASK**: You will need to copy and adapt the implementation,
-      from either `(1)` or `(2)` above,
-      and such that it performs the same RPC request and displays its response.
-      The only difference is that you must use a different RPC URL,
-      from a 3rd party (`thirdPartyRpcUrl`).
+- The implementation here is left incomplete
+- **TASK**: You will need to copy and adapt the implementation,
+    from either `(1)` or `(2)` above,
+    and such that it performs the same RPC request and displays its response.
+    The only difference is that you must use a different RPC URL,
+    from a 3rd party (`thirdPartyRpcUrl`).
