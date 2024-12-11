@@ -21,7 +21,7 @@ git cd hedera-dev-course-101-graded-assessments
 git init
 ```
 
-Copy this subdirectory into your repo for assessments submissions,
+Copy this subdirectory into your repo for assessment submissions,
 like so:
 
 ```shell
@@ -45,12 +45,23 @@ Now you may begin working on your submission for this module!
 - You will need to do your own research to work out TODO_TASK_DYOR.
 - Hint: Use **TODO_TASK_RESOURCE_HINT** for this research.
 - The entire contents of this file should be TODO_TASK_RETURN_VALUE.
-
 ## Submission Instructions
 
-- Create a new branch `hdcXYZXY` in the git repo.
-- Push this branch to your git remote.
+Create a new branch `hdcXYZXY` in the git repo,
+add and commit the files that you wish to submit,
+and finally push this branch to your git remote.
+The following commands may be useful:
+
+```shell
+git checkout main
+git checkout -b hdcXYZXY
+# git add ... (the files for your submission)
+# git commit ...
+git push origin hdcXYZXY
+```
+
 - Ensure that your git repo is on Github, and is private.
 - Ensure that your git repo has been shared with the
-  TODO_INSTRUCTOR_SHARED_USER_ACCOUNT Github account.
-- Ensure that your git repo has been tagged with `hedera` and `course-submission`
+  `hedera-dev-assessor` Github account.
+- Ensure that your git repo has been tagged with
+  `hedera` and `course`

@@ -17,11 +17,11 @@ perform the following steps:
 
 ```shell
 mkdir -p ../hedera-dev-course-101-graded-assessments
-git cd hedera-dev-course-101-graded-assessments
+cd hedera-dev-course-101-graded-assessments
 git init
 ```
 
-Copy this subdirectory into your repo for assessments submissions,
+Copy this subdirectory into your repo for assessment submissions,
 like so:
 
 ```shell
@@ -50,7 +50,9 @@ Now you may begin working on your submission for this module!
   will yield this information.
 - Hint: Use **JSON-RPC API (Ethereum)** or **Hedera RPC (QuickNode)**
   for this research.
-- Set the return value of the function (`result`) to the value of this account's balance.
+- Set the return value of the function (`result`) to
+  the value of this account's balance -
+  use `BigInt` instead of `Number`.
 
 (3) Using the file `script-hdc10102Task03.txt`
 
@@ -62,9 +64,21 @@ Now you may begin working on your submission for this module!
 
 ## Submission Instructions
 
-- Create a new branch `hdc10102` in the git repo.
-- Push this branch to your git remote.
+Create a new branch `hdc10102` in the git repo,
+add and commit the files that you wish to submit,
+and finally push this branch to your git remote.
+The following commands may be useful:
+
+```shell
+git checkout main
+git checkout -b hdc10102
+# git add ... (the files for your submission)
+# git commit ...
+git push origin hdc10102
+```
+
 - Ensure that your git repo is on Github, and is private.
 - Ensure that your git repo has been shared with the
-  TODO_INSTRUCTOR_SHARED_USER_ACCOUNT Github account.
-- Ensure that your git repo has been tagged with `hedera` and `course-submission`
+  `hedera-dev-assessor` Github account.
+- Ensure that your git repo has been tagged with
+  `hedera` and `course`
