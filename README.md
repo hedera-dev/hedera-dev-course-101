@@ -60,30 +60,14 @@ and thereby complete the lab.
 
 (WIP)
 
-### TODO_SEQUENCE_X_NAME
-
-<!--
-[Go to accompanying tutorial](#TODO_TUTORIAL_SEQUENCE_LINK). (WIP)
--->
-
-What you will accomplish:
-
-1. TODO_SEQUENCE_X_ACCOMPLISH
-
-<!--
-Video:
-
-[![](https://i.ytimg.com/vi/TODO_SEQUENCE_X_NAME_YT_VID_CODE/maxresdefault.jpg)](https://www.youtube.com/watch?v=TODO_SEQUENCE_X_NAME_YT_VID_CODE&list=TODO_SEQUENCE_X_NAME_YT_PL_CODE)
-
--->
-
-Steps:
-
-1. TODO_SEQUENCE_X_STEPS
+- Get started
+  - [Smoke Test](smokeTest/)
+- Module 02 - Blockchain State
+  - [Lab: Query network state with JSON-RPC](hdc10102LabQueryRpc/)
 
 ## TODOs
 
-- [ ] Write the sequence steps for lab 101-02 querying with RPC
+- [x] Write the sequence steps for lab 101-02 querying with RPC
 
 ## Author
 

@@ -1,0 +1,73 @@
+{
+    "title": "Module 101-02 Querying Hedera Network State - Hedera Developer Course",
+    "questions": [
+      {
+        "type": "scq/v1",
+        "text": "Network state on Hedera can be queried using the following methods:",
+        "jumble": false,
+        "answers": [
+          {
+            "text": "Mirror Node APIs",
+            "explain": "This is only one of the methods to query network state on Hedera."
+          },
+          {
+            "text": "JSON-RPC",
+            "explain": "This is only one of the methods to query network state on Hedera."
+          },
+          {
+            "text": "Hedera APIs (HAPIs)",
+            "explain": "This is only one of the methods to query network state on Hedera."
+          },
+          {
+            "text": "Hashscan",
+            "explain": "This is only one of the methods to query network state on Hedera."
+          },
+          {
+            "text": "All of the above",
+            "explain": "Hedera provides multiple ways to query its network state. Mirror Node APIs, JSON-RPC, and HAPIs can be used to query network state programmatically. Hashscan can be used to query network state through a user interface.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "type": "scq/v1",
+        "text": "What is the JSON-RPC method name to retrieve the most recent block on Hedera?",
+        "jumble": true,
+        "answers": [
+          {
+            "text": "eth_getBlockByNumber",
+            "explain": "This JSON-RPC method can be used with 'latest' as the value of the block number parameter to query the most recent block.",
+            "correct": true
+          },
+          {
+            "text": "eth_blockNumber",
+            "explain": "Close - this JSON-RPC method only returns the most recent block number, but does not return the block itself."
+          },
+          {
+            "text": "eth_sendRawTransaction",
+            "explain": "This JSON-RPC method does not query data from network state, but rather sends a transaction, which results in an update to network state."
+          },
+          {
+            "text": "eth_getBalance",
+            "explain": "This JSON-RPC method returns the HBAR balance of the specified account, and does not return any information about the latest block."
+          }
+        ]
+      },
+      {
+        "type": "scq/v1",
+        "text": "The state of the Hedera blockchain can be updated without submitting a transaction.",
+        "jumble": true,
+        "answers": [
+          {
+            "text": "No",
+            "explain": "As with any other blockchain, updates to the network state must come in the form of a valid and authorised transaction, which nodes agree on through a consensus algorithm. A transaction is needed for a state change to occur.",
+            "correct": true
+          },
+          {
+            "text": "Yes",
+            "explain": "Without transactions, no state changes may occur."
+          }
+        ]
+      }
+    ]
+  }
