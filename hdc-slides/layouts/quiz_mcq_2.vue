@@ -1,0 +1,19 @@
+<template>
+  <div class="slidev-layout quiz_mcq_2">
+    <div class="question">
+      <slot name="question" />
+    </div>
+    <div class="choice_a">
+      <slot name="choice_a" />
+    </div>
+    <div class="choice_b">
+      <slot name="choice_b" />
+    </div>
+    <div class="position">
+      <slot name="position" />
+    </div>
+    <div>
+      <slot />
+    </div>
+  </div>
+</template>
