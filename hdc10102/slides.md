@@ -3,11 +3,16 @@ transition: fade-out
 layout: module_title_start
 ---
 
+::title::
+
 # Query Hedera Network State
+
+::subtitle::
 
 ## Hedera Developer Course 101
 
 ::speaker::
+
 Brendan Graetz
 
 ---
@@ -15,7 +20,11 @@ transition: fade-out
 layout: toc
 ---
 
+::title::
+
 # What you will learn
+
+::contents::
 
 - Blockchain state
 - CQRS
@@ -36,7 +45,11 @@ transition: fade-out
 layout: overview_1
 ---
 
+::title::
+
 # What is "state"?
+
+::default::
 
 Data
 - Information
@@ -51,7 +64,11 @@ transition: fade-out
 layout: overview_1
 ---
 
+::title::
+
 # Querying state
+
+::default::
 
 Flow
 - Request
@@ -65,7 +82,11 @@ transition: fade-out
 layout: overview_1
 ---
 
+::title::
+
 # Updating state
+
+::default::
 
 Flow
 - Request
@@ -78,6 +99,8 @@ State change
 transition: fade-out
 layout: text_chunks_2
 ---
+
+::title::
 
 # Blockchain Transactions
 
@@ -107,6 +130,8 @@ transition: fade-out
 layout: text_chunks_4
 ---
 
+::title::
+
 # Transports
 
 ::chunk_1::
@@ -129,6 +154,8 @@ SSH
 transition: fade-out
 layout: text_chunks_4
 ---
+
+::title::
 
 # Protocols
 
@@ -189,7 +216,11 @@ Hashscan
 
 ::choice_e::
 
-<span v-mark.circle.orange="2">All of the above</span>
+<span v-mark.circle.orange="1">All of the above</span>
+
+::position::
+
+1/3
 
 
 ---
@@ -203,7 +234,7 @@ What is the JSON-RPC method name to retrieve the most recent block on Hedera?
 
 ::choice_a::
 
-<span v-mark.circle.orange="2">eth_getBlockNyNumber</span>
+<span v-mark.circle.orange="1">eth_getBlockByNumber</span>
 
 ::choice_b::
 
@@ -216,6 +247,10 @@ eth_sendRawTransaction
 ::choice_d::
 
 eth_getBalance
+
+::position::
+
+2/3
 
 ---
 transition: fade-out
@@ -232,7 +267,11 @@ True
 
 ::choice_b::
 
-<span v-mark.circle.orange="2">False</span>
+<span v-mark.circle.orange="1">False</span>
+
+::position::
+
+3/3
 
 ---
 transition: fade-out
@@ -265,6 +304,10 @@ transition: fade-out
 layout: text_chunks_3
 ---
 
+::title::
+
+# Hedera RPC endpoints
+
 ::chunk_1::
 
 Hashio
@@ -283,6 +326,10 @@ layout: statement_icon
 ---
 
 # Quick Demo!
+
+::icon::
+
+TODO icon goes here
 
 ---
 transition: fade-out
@@ -311,6 +358,8 @@ transition: fade-out
 layout: code_and_console
 ---
 
+::title::
+
 # Setup (2)
 
 ::tab::
@@ -335,6 +384,8 @@ code script-hdc10102LabQueryRpc.js
 transition: fade-out
 layout: code_1
 ---
+
+::title::
 
 # Markers in the file
 
@@ -497,7 +548,11 @@ transition: fade-out
 layout: blank_canvas
 ---
 
+::title::
+
 # What we learnt
+
+::default::
 
 - JSON-RPC format
 - Various types of RPC endpoints
