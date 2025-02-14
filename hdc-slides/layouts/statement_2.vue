@@ -1,7 +1,9 @@
 <template>
-  <div class="slidev-layout statement_2">
-    <div>
-      <slot />
+  <div class="hdct slidev-layout statement_2">
+    <div class="slide">
+      <div>
+        <slot />
+      </div>
     </div>
   </div>
 </template>

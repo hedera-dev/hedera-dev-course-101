@@ -336,7 +336,17 @@ transition: fade-out
 layout: code_and_console
 ---
 
+::title::
+
 # Setup (1)
+
+::tab::
+
+::code::
+
+```js
+// ...
+```
 
 ::console::
 

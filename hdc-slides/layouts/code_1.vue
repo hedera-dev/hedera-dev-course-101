@@ -1,5 +1,5 @@
 <template>
-  <div class="slidev-layout code_1">
+  <div class="hdct slidev-layout code_1">
     <div class="title">
       <slot name="title" />
     </div>
