@@ -6,3 +6,4 @@ package-lock.json
 /logger.json
 *.pdf
 *.xls
+.DS_Store
